@@ -11,4 +11,4 @@ It is not perfekt but i was able to read and convert his Files with it.
 ## Analysing
 
 To figure out the Original File Format I used the Program [ImHex](https://github.com/WerWolv/ImHex).
-See my file for a single Entry [./imhex/ahnenbaum.hexpad](./imhex/ahnenbaum.hexpad)
+See my file for a single Entry [./imhex/ahnenbaum.hexpad](./imhex/ahnenbaum.hexpat)
