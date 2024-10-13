@@ -1,0 +1,1 @@
+{"mappings":"AAAA","sources":["src/components/genealogy-viewer.scss"],"sourcesContent":["tr:nth-child(even) {\n  background-color: #d6eeee;\n}\n"],"names":[],"version":3,"file":"index.2212206d.css.map","sourceRoot":"/__parcel_source_root/"}

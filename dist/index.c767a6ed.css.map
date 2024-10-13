@@ -1,0 +1,1 @@
+{"mappings":"ACAA","sources":["index.c767a6ed.css","src/components/genealogy-viewer.scss"],"sourcesContent":["tr:nth-child(2n) {\n  background-color: #d6eeee;\n}\n/*# sourceMappingURL=index.c767a6ed.css.map */\n","tr:nth-child(even) {\n  background-color: #d6eeee;\n}\n"],"names":[],"version":3,"file":"index.c767a6ed.css.map"}

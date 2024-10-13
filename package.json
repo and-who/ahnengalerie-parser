@@ -1,4 +1,24 @@
 {
   "name": "ahnen-gallery",
-  "packageManager": "yarn@4.1.1"
+  "packageManager": "yarn@4.1.1",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "@parcel/core": "^2.12.0",
+    "@parcel/transformer-sass": "^2.12.0",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "parcel": "^2.12.0",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "alias": {
+    "process": false
+  }
 }
