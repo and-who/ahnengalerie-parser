@@ -27121,12 +27121,22 @@ const App = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                 children: [
                     "If you had success with the parser and want to thank me for it, you are welcome to buy me lunch ;) My Paypal link is:",
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                        fileName: "src/App.tsx",
+                        lineNumber: 28,
+                        columnNumber: 7
+                    }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                         href: "https://paypal.me/andreaswolf",
                         children: "paypal.me/andreaswolf"
                     }, void 0, false, {
                         fileName: "src/App.tsx",
-                        lineNumber: 28,
+                        lineNumber: 29,
+                        columnNumber: 7
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                        fileName: "src/App.tsx",
+                        lineNumber: 30,
                         columnNumber: 7
                     }, undefined),
                     "I would be happy about a little message."
@@ -27140,19 +27150,19 @@ const App = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 children: "Disclaimer"
             }, void 0, false, {
                 fileName: "src/App.tsx",
-                lineNumber: 32,
+                lineNumber: 33,
                 columnNumber: 5
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                 children: "I have written this parser for myself. The data is not sent to any server."
             }, void 0, false, {
                 fileName: "src/App.tsx",
-                lineNumber: 33,
+                lineNumber: 34,
                 columnNumber: 5
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _ahnenPage.AhnenPage), {}, void 0, false, {
                 fileName: "src/App.tsx",
-                lineNumber: 37,
+                lineNumber: 38,
                 columnNumber: 5
             }, undefined)
         ]

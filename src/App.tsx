@@ -25,8 +25,9 @@ const App = () => (
     <p>
       If you had success with the parser and want to thank me for it, you are
       welcome to buy me lunch ;) My Paypal link is:
-      <a href="https://paypal.me/andreaswolf">paypal.me/andreaswolf</a>I would
-      be happy about a little message.
+      <br />
+      <a href="https://paypal.me/andreaswolf">paypal.me/andreaswolf</a>
+      <br />I would be happy about a little message.
     </p>
 
     <h2>Disclaimer</h2>
