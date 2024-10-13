@@ -21,13 +21,15 @@ const App = () => (
       a list with the data and a button to export.
     </p>
 
-    <h2>Donation</h2>
+    <h2>Donation & Contact</h2>
     <p>
       If you had success with the parser and want to thank me for it, you are
       welcome to buy me lunch ;) My Paypal link is:
       <br />
       <a href="https://paypal.me/andreaswolf">paypal.me/andreaswolf</a>
       <br />I would be happy about a little message.
+      <br />
+      <a href="mailto:genealogy@wolfandreas.com">Contact</a>
     </p>
 
     <h2>Disclaimer</h2>
