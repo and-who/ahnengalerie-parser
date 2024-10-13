@@ -208,7 +208,6 @@ const generateFamily = (family: Family) => {
 
   if (family.husbandId && family.husbandId !== "0") {
     familyString += `1 HUSB @I${family.husbandId}@ \n`;
-    console.log({ husb: family.husbandId });
   }
 
   if (family.wifeId && family.wifeId !== "0") {
@@ -238,7 +237,6 @@ export const generateGedcom = (entries: Entry[]) => {
   let gedcomString = generateGedcomHeader();
 
   const families = generateFamilies(entries);
-  console.log({ families });
 
   entries.forEach((entry) => {
     gedcomString += generateIndividual(entry, families);

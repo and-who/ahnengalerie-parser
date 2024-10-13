@@ -13,11 +13,8 @@ export const FileInput = (props: {
   const handleFileChange = async (
     event: React.ChangeEvent<HTMLInputElement>
   ) => {
-    console.log(event);
     let file = event.target.files?.[0];
-    console.log(file);
     let arrayBuffer = await file?.arrayBuffer();
-    console.log(arrayBuffer);
     setFileContent(arrayBuffer);
     setFileName(file?.name);
   };
@@ -32,7 +29,8 @@ export const FileInput = (props: {
 
   return (
     <div>
-      <input type="file" onChange={handleFileChange} />
+      <label htmlFor="file">Ahnengalerie FICHES File: </label>
+      <input id="file" type="file" onChange={handleFileChange} />
     </div>
   );
 };

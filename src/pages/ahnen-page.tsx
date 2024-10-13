@@ -70,12 +70,6 @@ export const AhnenPage = () => {
     });
   });
 
-  // console.log({ filteredDuplicates });
-
-  if (entries.length >= 0) {
-    console.log("GEDCOM", generateGedcom(entries));
-  }
-
   const downloadGedcomButton = () => {
     const downloadGedcom = () => {
       const element = document.createElement("a");
@@ -86,19 +80,19 @@ export const AhnenPage = () => {
       element.click();
     };
 
-    return <button onClick={downloadGedcom}>Download GEDCOM</button>;
+    return <button onClick={downloadGedcom}>Download GEDCOM File</button>;
   };
 
   return (
     <div>
-      <h2>Ahnen Page</h2>
+      <h2>Ahnengalerie to GEDCOM Converter:</h2>
       <FileInput
         onEntriesParsed={(newEntries) =>
           setEntries([...entries, ...newEntries])
         }
       />
-      {entries.length >= 0 && downloadGedcomButton()}
-      <GenealogyViewer entries={entries} />
+      {entries.length > 0 && downloadGedcomButton()}
+      {entries.length > 0 && <GenealogyViewer entries={entries} />}
       {filteredDuplicates.map((duplicates) => {
         return (
           <div>
