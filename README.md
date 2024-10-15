@@ -3,7 +3,11 @@
 This Code is able to read Files from an old Genealogy Software called "Ahnengalerie" which my Grandpa used.
 It is not perfekt but i was able to read and convert his Files with it.
 
-## Usage
+## Try it
+
+[https://and-who.github.io/ahnengalerie-parser/](https://and-who.github.io/ahnengalerie-parser/)
+
+## Development
 
 1. `npm install`
 2. `npm start`
